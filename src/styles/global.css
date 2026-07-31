@@ -123,3 +123,6 @@ h1{ font-size:clamp(37px,5.8vw,62px); }
 .hero .kicker{ animation:heroRise .9s .05s both cubic-bezier(.16,.7,.2,1); }
 .hero h1{ animation:heroRise 1s .18s both cubic-bezier(.16,.7,.2,1); }
 .hero .subline{ animation:heroRise 1s .34s both cubic-bezier(.16,.7,.2,1); }
+
+/* ── batch-3 (2026-07-31 color pivot): wordmark + all accents = one brand color ── */
+:root{ --gold:#42945F; --brand:#42945F; }
