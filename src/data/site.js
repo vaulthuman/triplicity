@@ -2,7 +2,7 @@
 export const firm = {
   name: "Triplicity", wordmark: "Triplicity",
   legalName: "Triplicity Advisory, LLC",
-  email: "russ@triplicityadvisory.com",
+  email: "triplicity@triplicityadvisory.com",
   kicker: "Leadership · Transition · Coaching",
   bookingUrl: "#start",
 };
