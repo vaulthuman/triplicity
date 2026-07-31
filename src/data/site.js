@@ -7,7 +7,7 @@ export const firm = {
   bookingUrl: "#start",
 };
 export const hero = {
-  h1: "The space between who you were and who you're becoming.",
+  h1: "The distance between who you were and who you're becoming isn't meant to be crossed alone.",
   subline: "Coaching and leadership for leaders, couples, and partnerships in transition — held, not handled.",
   lede: [
     "Every real transition — a role you're growing into, a partnership finding its next shape, a life rearranging around a decision — has a space in the middle where the old way no longer fits and the new one hasn't formed yet.",
