@@ -126,3 +126,7 @@ h1{ font-size:clamp(37px,5.8vw,62px); }
 
 /* ── batch-3 (2026-07-31 color pivot): wordmark + all accents = one brand color ── */
 :root{ --gold:#42945F; --brand:#42945F; }
+
+
+/* 2026-08-02 (Russ): revert to pure B&W; wordmark = dark silver */
+:root{ --gold:#ffffff; --brand:#8B9299; }
