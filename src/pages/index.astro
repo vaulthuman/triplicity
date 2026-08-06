@@ -45,7 +45,9 @@ const year = new Date().getFullYear();
       <div class="cta"><a class="btn-fill" href="#" data-open-form>{hero.cta}</a></div>
 
       <hr class="rule" />
-      <section class="cols">{pillars.map((c) => (<div><h3>{c.title}</h3><p>{c.body}</p></div>))}</section>
+      <h2 class="sec">The 360 — eight parts of a whole life</h2>
+      <section class="cols" style="display:grid;grid-template-columns:repeat(4,1fr);gap:22px">{pillars.map((c) => (<div><h3>{c.title}</h3><p>{c.body}</p></div>))}</section>
+      <p class="turn" style="text-align:center;margin-top:20px;opacity:.85">Eight parts — because eight, turned on its side, is infinity. A whole life, without end.</p>
 
       <hr class="rule" />
       <p class="turn">{turn}</p>
@@ -58,7 +60,7 @@ const year = new Date().getFullYear();
       <h2 class="sec">Why {firm.name}</h2>
       <div class="coachcard">
         <img src="/russ-bw.jpg" alt="Russ Michaels, founder of Triplicity Advisory" width="120" height="150" />
-        <div><p class="coachname">Russ Michaels</p><p class="coachrole">Founder &middot; Triplicity Advisory</p></div>
+        <div><p class="coachname">Russ Michaels, Esq.</p><p class="coachrole">Founder &middot; Triplicity Advisory</p></div>
       </div>
       <div class="prose">{why.map((p) => <p>{p}</p>)}</div>
 
@@ -71,6 +73,7 @@ const year = new Date().getFullYear();
       <div class="ctarow" id="start"><a class="btn-fill" href="#" data-open-form>{hero.cta}</a></div>
     </div>
   </main>
+  <div class="vh-ribbon" style="text-align:center;padding:22px 16px;border-top:1px solid rgba(139,146,153,.22)"><a href="https://www.vaulthuman.com" style="color:#8B9299;text-decoration:none;font:500 14px/1.6 Inter,system-ui,sans-serif;letter-spacing:.03em">One seat. Your whole life. <strong style="color:#8B9299">Vault Human.</strong></a></div>
   <footer class="site">
     <div class="wrap">
       <p class="sig">{firm.legalName.toUpperCase()}</p>
