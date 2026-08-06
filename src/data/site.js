@@ -7,8 +7,8 @@ export const firm = {
   bookingUrl: "#start",
 };
 export const hero = {
-  h1: "Coaching for the whole picture — yours, or your business's.",
-  subline: "Life, leadership, and communication, coached across the eight parts of a whole life. For anyone in transition — which, honestly, is everyone.",
+  h1: "Developing the 360 of life, and the leader living into it.",
+  subline: "Life, leadership, and communication — coached across the eight parts of a whole life, for anyone in transition.",
   lede: [
     "Every real change — a role you're growing into, a partnership finding its shape, a business turning a corner — has a stretch in the middle where the old way no longer fits and the new one hasn't formed yet.",
     "Triplicity is coaching for that stretch. We look at the whole of you — or the whole of your business — across all eight parts, find where you need more, and work from there. You leave with your own clarity and nerve, not a dependency on a coach.",
@@ -28,7 +28,7 @@ export const pillars = [
 export const turn = "The 360: we look at all eight parts of a life — or a business — and coach where you need more. More leadership, more learning, more listening, more of what's been missing. Everyone is in transition somewhere; that's where the work is.";
 export const audiences = ["Executives","Founders","Couples","Partnerships","Boards","Leadership teams"];
 export const why = [
-  "You work directly with Russ Michaels — the coach in the seat, not a curriculum and a junior. Over twenty years leading organizations as a CEO, Executive Director, and Board President.",
+  "You work directly with Russ Michaels, Esq. — the coach in the seat, not a curriculum and a junior. Over twenty years leading organizations as a CEO, Executive Director, and Board President.",
   "The lens he brings isn't a framework to run you through — it's the presence to hold what's actually happening, and the range to coach the whole of it: the person, the partnership, and the business.",
 ];
 export const steps = [
