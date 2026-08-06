@@ -1,35 +1,40 @@
-// TRIPLICITY ADVISORY — site content. Edit values; layout stays put.
+// TRIPLICITY — content. (rev 2026-08-06: The Coach · the 360 on a whole life/business · StoryBrand spine)
 export const firm = {
   name: "Triplicity", wordmark: "Triplicity",
   legalName: "Triplicity Advisory, LLC",
   email: "triplicity@triplicityadvisory.com",
-  kicker: "Leadership · Transition · Coaching",
+  kicker: "The Coach · The 360 on a whole life",
   bookingUrl: "#start",
 };
 export const hero = {
-  h1: "The distance between who you were and who you're becoming isn't meant to be crossed alone.",
-  subline: "Coaching and leadership for leaders, couples, and partnerships in transition — held, not handled.",
+  h1: "Coaching for the whole picture — yours, or your business's.",
+  subline: "Life, leadership, and communication, coached across the eight parts of a whole life. For anyone in transition — which, honestly, is everyone.",
   lede: [
-    "Every real transition — a role you're growing into, a partnership finding its next shape, a life rearranging around a decision — has a space in the middle where the old way no longer fits and the new one hasn't formed yet.",
-    "Triplicity is presence-led coaching for that space. We don't optimize a role or fix a relationship from the outside. We hold the whole person and the whole situation, and work from there — so what you leave with is your own judgment, clearer and steadier, walking out under its own power.",
+    "Every real change — a role you're growing into, a partnership finding its shape, a business turning a corner — has a stretch in the middle where the old way no longer fits and the new one hasn't formed yet.",
+    "Triplicity is coaching for that stretch. We look at the whole of you — or the whole of your business — across all eight parts, find where you need more, and work from there. You leave with your own clarity and nerve, not a dependency on a coach.",
   ],
-  cta: "Start with a conversation",
+  cta: "Start a conversation",
 };
 export const pillars = [
-  { title: "Presence, not process", body: "You are not a problem to be solved. You are a whole to be held — without flinching, by someone who isn't fragmented himself." },
-  { title: "The transition itself", body: "The moment in the middle — leaders growing into a role, partnerships finding their next shape, a life rearranging around a decision. That is the work." },
-  { title: "Your own judgment, clearer", body: "You leave with clarity and nerve that are yours. Not a dependency on a coach — an integrity you carry out on your own." },
+  { title: "Life", body: "Health, energy, and how you actually show up." },
+  { title: "Love", body: "The relationships and people the whole thing is for." },
+  { title: "Law", body: "Where structure, rules, and protection fit in." },
+  { title: "Legacy", body: "What you're building to leave, and what it means." },
+  { title: "Learning", body: "Growth, skill, and the questions worth asking now." },
+  { title: "Listening", body: "Communication — being heard, and truly hearing." },
+  { title: "Livelihood", body: "Work, money, and making the most of what you've got." },
+  { title: "Leisure", body: "Rest, play, and the life it's all meant to add up to." },
 ];
-export const turn = "Most people cross their hardest transition alone, or hand pieces of it to advisors who each see only their piece. That's where clarity and nerve quietly leak away.";
+export const turn = "The 360: we look at all eight parts of a life — or a business — and coach where you need more. More leadership, more learning, more listening, more of what's been missing. Everyone is in transition somewhere; that's where the work is.";
 export const audiences = ["Executives","Founders","Couples","Partnerships","Boards","Leadership teams"];
 export const why = [
-  "Triplicity is a small, presence-led practice. You work directly with Russ Michaels — not a curriculum and a junior coach — in a rhythm that fits your life.",
-  "Russ has led organizations for over twenty years — as a CEO, Executive Director, and Board President — and has coached leaders and held rooms of human advancement through the decisions that constitute a life. That's the lens he brings: not a framework to run you through, but the presence to hold what's actually happening.",
+  "You work directly with Russ Michaels — the coach in the seat, not a curriculum and a junior. Over twenty years leading organizations as a CEO, Executive Director, and Board President.",
+  "The lens he brings isn't a framework to run you through — it's the presence to hold what's actually happening, and the range to coach the whole of it: the person, the partnership, and the business.",
 ];
 export const steps = [
-  { n: "I", title: "A first conversation.", body: "Unhurried, no pitch — we find out together whether this is the room for the work." },
-  { n: "II", title: "The work.", body: "A focused season together — The Space Between — holding the whole as it moves." },
-  { n: "III", title: "You move whole.", body: "You leave with your own clarity and nerve. Not a dependency — an integrity." },
+  { n: "I", title: "Start a conversation.", body: "Unhurried, no pitch — we find out together whether this is the room for the work." },
+  { n: "II", title: "We map the 360.", body: "A clear read on where you are across all eight parts, and where you want more." },
+  { n: "III", title: "You move whole.", body: "A focused season together. You leave with your own clarity and nerve." },
 ];
-export const closing = "You were never a role to optimize. You are a whole person, in a real transition — and you deserve to come through it still yourself.";
-export const footerLine = "Leadership, transition & partnership coaching";
+export const closing = "You were never a role to optimize or a problem to fix. You're a whole person — or a whole company — in a real transition. Let's cross it whole.";
+export const footerLine = "The Coach — life, leadership & communication, seen as one whole";
