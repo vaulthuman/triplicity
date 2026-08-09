@@ -1,0 +1,1 @@
+export const onRequest = async (c) => { const u = new URL(c.request.url); if (u.hostname.endsWith('.pages.dev')) { u.protocol = 'https:'; u.hostname = 'triplicityadvisory.com'; return Response.redirect(u.toString(), 301); } return c.next(); };
