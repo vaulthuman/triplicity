@@ -32,17 +32,17 @@ const year = new Date().getFullYear();
   </div></header>
 
   <main>
-    <section class="hero hero-video"><video class="bgvid" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=1600&q=60&auto=format&fit=crop"><source src="https://assets.mixkit.co/videos/15169/15169-720.mp4" type="video/mp4"></video><div class="veil"></div>
+    <section class="hero">
       <div class="wrap hero-grid"><div class="hero-copy">
         <div class="timeword"><span class="tw past">Past</span><span class="tw present on">Present</span><span class="tw future">Future</span></div>
         <h1>Coaching for leaders <em>and their teams.</em></h1>
         <p class="lede">Triplicity sells executive, leadership, communication and team coaching to organizations. A private session every week, a group of six, a daily lesson, for a year. Being mindful is the work.</p>
         <div class="ctarow"><a class="btn btn-acc" href="#" data-open-form>Apply for the Coached Year</a><a class="btn btn-line" href="#how">How it works</a></div>
         <p class="welcome" hidden>Welcome to Triplicity · The present · <b>Love</b> the life you are in</p>
-      </div></div>
+      </div><div class="hero-photo"><img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1400&q=72&auto=format&fit=crop" alt="Two colleagues high-fiving at a desk" width="1400" height="1000" fetchpriority="high" /></div></div>
       <div class="proof"><div class="wrap proof-grid"><div><b>1</b><span>Private session a week</span></div><div><b>6</b><span>People in your group</span></div><div><b>12</b><span>Months</span></div><div><b>18</b><span>Clients, max, per year</span></div></div></div>
     </section>
-
+    <section class="sec gallery-sec faces"><div class="wrap gallery"><figure><img src="https://images.unsplash.com/photo-1552581234-26160f608093?w=1000&q=72&auto=format&fit=crop" alt="A leader listening to her team" loading="lazy" /><figcaption>Leaders</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=1000&q=72&auto=format&fit=crop" alt="A team in a workshop" loading="lazy" /><figcaption>Teams</figcaption></figure><figure><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1000&q=72&auto=format&fit=crop" alt="An executive in conversation" loading="lazy" /><figcaption>One at a time</figcaption></figure></div></section>
     <section class="sec" id="why"><div class="wrap">
       <div class="sec-head"><p class="eyebrow">The problem</p><h2>You know what to do.<br>You need someone in the room when you don't.</h2></div>
       <div class="pains"><div class="pain"><h3>Alone</h3><p>Good intentions with no one checking in.</p></div><div class="pain"><h3>Unread</h3><p>You write it down. Nobody reads it.</p></div><div class="pain"><h3>Faded</h3><p>The weekend high. Gone by Tuesday.</p></div></div>
@@ -78,7 +78,7 @@ const year = new Date().getFullYear();
       <div class="faq"><details><summary>What does Triplicity do?</summary><p>Coaching for leaders and teams, paid for by the organization, for a year, with a real coach who reads what you write.</p></details><details><summary>What is the difference from Vault Human?</summary><p>Same method, same coach. Vault Human is for a person paying for themselves. Triplicity is for a company paying for its people.</p></details><details><summary>Is this therapy?</summary><p>No. If you need a therapist, we say so.</p></details><details><summary>Who coaches?</summary><p>Russ. Eighteen clients a year, in three groups of six.</p></details><details><summary>How much time?</summary><p>Ten minutes a day, fifty minutes a week with your coach, an hour a week with your group.</p></details></div>
     </div></section>
 
-    <section class="sec final vid-sec" id="begin"><video class="bgvid" autoplay muted loop playsinline><source src="https://assets.mixkit.co/videos/15919/15919-720.mp4" type="video/mp4"></video><div class="veil"></div><div class="wrap">
+    <section class="sec final" id="begin"><div class="wrap">
       <h2>Apply for the Coached Year.</h2><p class="lede">A 30-minute call with Russ. Then you decide.</p>
       <div class="ctarow"><a class="btn btn-acc" href="#" data-open-form>Apply for the Coached Year</a><a class="btn btn-line" href="tel:+18888332510">(888) 833-2510</a></div>
     </div></section>
@@ -125,6 +125,5 @@ const year = new Date().getFullYear();
   document.addEventListener('mouseout',function(e){if(!e.relatedTarget&&e.clientY<=0)pop();});
   if(matchMedia('(max-width:760px)').matches)setTimeout(pop,45000);})();
   </script>
-  <script is:inline>document.querySelectorAll("video.bgvid").forEach(function(v){v.playbackRate=0.6;v.addEventListener("loadedmetadata",function(){v.playbackRate=0.6;});});</script>
 </body>
 </html>
