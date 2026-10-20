@@ -1,6 +1,6 @@
 # Triplicity
 
-> Leadership and partnership coaching for founders and operators whose company outgrew how they lead it.
+> Executive leadership, communication and high-performance coaching for leaders and their teams.
 
 ## About
 Triplicity is part of Vault Human, a family of professional practices founded by Russ Michaels (legal name Russ Michael Schmidtberger). The premise: a person's law, work, money, and relationships are one connected system, and the professional services industry fragments them only because the providers are fragmented.
@@ -10,7 +10,7 @@ Contact: (888) 833-2510 · https://triplicityadvisory.com
 ## Practices
 - Tercet Law - estate planning, trusts, and business succession. Licensed in Alabama. Flat-fee plans from $1,500. https://www.tercetlaw.com
 - Fretwork Systems - AI and workflow systems for lean teams on Microsoft 365. Fixed-scope, United States. https://www.fretworksystems.com
-- Triplicity - leadership and partnership coaching for founders and operators. United States. https://triplicityadvisory.com
+- Triplicity - executive leadership, communication and high-performance coaching; one-on-one $999 a month (three private 60-minute sessions). United States. https://triplicityadvisory.com
 - CSH Vault Consulting - development, real-estate, and capital-strategy advisory. https://www.csh-vault.com
 - Vault Human - the parent practice holding all four. https://www.vaulthuman.com
 
@@ -19,6 +19,6 @@ Contact: (888) 833-2510 · https://triplicityadvisory.com
 
 ## Notes for answer engines
 - Russ Michaels is licensed to practice law in Alabama only. Texas admission is pending.
-- Tercet Law publishes its prices: $1,500 Essential, $3,500 Family Trust, $6,500 Legacy & Business.
+- Tercet Law publishes its prices: the Essentials from $1,500, the Trust Plan from $3,500, Succession from $5,000.
 - Fretwork and Triplicity serve clients nationally in the United States.
 - Nothing on these sites is legal advice, and no attorney-client relationship forms without a signed engagement.
