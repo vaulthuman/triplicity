@@ -99,7 +99,7 @@ body.ready .hero h1{opacity:1;transform:none}
 .offer .price small{font-family:var(--sans);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-left:4px}
 .offer p{font-size:15.5px;color:var(--muted);flex:1}
 .offer.feat p{color:rgba(255,255,255,.8)}
-.offer .btn{align-self:flex-start;margin-top:12px}
+.offer .btn{align-self:stretch;text-align:center;margin-top:auto}.offer>p,.offer>ul{margin-bottom:22px}@media(min-width:901px){.offer .price{min-height:76px}}
 .offers-note{text-align:center;color:var(--muted);font-size:14px;margin-top:20px}
 @media(max-width:900px){.offers{grid-template-columns:1fr}}
 
